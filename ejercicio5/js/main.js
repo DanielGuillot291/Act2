@@ -3,10 +3,10 @@ const lista = document.getElementsByTagName('ul');
 
 boton[0].addEventListener('click', ()=>{
     var nuevoElemento = document.createElement('li');
-    const X = lista[0].children.length + 1;
+    const X = lista[1].children.length + 1;
     nuevoElemento.textContent = `Elemento ${X}`;
 
-    if(lista[0].children[X-2].classList.contains('bg-dark')){
+    if(lista[1].children[X-2].classList.contains('bg-dark')){
         nuevoElemento.classList.add('list-group-item');
         nuevoElemento.classList.add('col-12');
         nuevoElemento.classList.add('col-md-6');
@@ -21,7 +21,7 @@ boton[0].addEventListener('click', ()=>{
         nuevoElemento.classList.add('text-light');
     }
 
-    lista[0].appendChild(nuevoElemento);
+    lista[1].appendChild(nuevoElemento);
 })
 
 /*

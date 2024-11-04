@@ -1,5 +1,5 @@
 const texto = document.getElementsByTagName("p");
-const link = document.getElementsByTagName("a");
+const link = document.getElementsByClassName("enlaces");
 
 for(let i = 0; i<texto.length; i++){
     link[i].addEventListener('click', ()=>{
