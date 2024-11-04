@@ -1,0 +1,11 @@
+.additional {
+  /* vuestro CSS aquí */
+}
+
+.additional.hidden {
+  visibility: hidden;
+}
+
+.additional.visible {
+  visibility: visible;
+}
